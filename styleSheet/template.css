@@ -4,14 +4,22 @@
     padding: 0%;
 
 }
-
-
-.navbar li{
+.logo{
     display: inline-block;
-    margin: 2px;
-    padding: 12px;
     position: relative;
-    top: 10px;
-    left: 445px;
+    object-fit: cover;
+    object-position: 10% 10%;
+
+    width: 20%;
+    height: 100%;
+
+
+}
+.navbar li{
+    
+    display: inline-block;
+    margin-right: 3em;
+    padding: 5px;
+    position: relative;
     
 }
