@@ -1,10 +1,9 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +43,9 @@
     color: #0088a9;
     }
     .button{
-      width: 12px;
-      height: 10px;
-      background-color: blue;
+      width: 65px;
+      height: 30px;
     }
-  
   .cta {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -67,7 +64,42 @@
   .menu {
     display: none;
   }
-  
+  .mid h1{
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin: 70px 0px 0px 95px;
+    height: 145px;
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+  }
+ p{
+   display: inline-block;
+    /* border: 2px solid red; */
+    margin: 10px 95px;
+    font-size: 23px;
+  }
+  .btn button{
+   display: inline-block;
+    width: 162px;
+    margin: 48px 97px;
+    font-size: 31px;
+    border: 2px solid rgb(247, 67, 97);
+    border-radius: 18px;
+    background-color: white;
+    color:rgb(247, 67, 97) ;
+}
+  .btn button:hover{
+    background-color: rgb(247, 67, 97);
+    color: white;
+    animation-delay: 0.3;
+  }
+  img{
+    width: 325px;
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    right: 230px;
+  }
   .overlay {
     height: 100%;
     width: 0;
