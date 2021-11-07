@@ -4,6 +4,7 @@
   padding: 0;
   color: black;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -36,7 +37,6 @@ header {
     display: flex;
     color: black;
   }
-  
   .nav__links li {
     padding: 0px 20px;
   }
@@ -48,21 +48,33 @@ header {
   .nav__links li a:hover {
     color: #0088a9;
     }
-    .button{
+
+.button{
       width: 65px;
       height: 30px;
-    }
-  .cta {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s ease 0s;
-  }
+}
+.cta {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  margin-bottom: 1%;
+  margin-left: 10%;
+}
   
   .cta:hover {
     background-color: rgba(0, 136, 169, 0.8);
+  }
+
+  .cta:active{
+    color:  rgba(0, 136, 169, 1);
+
+    background-color: #ffffff;
+
   }
   
   /* Mobile Nav */
@@ -88,6 +100,7 @@ header {
    display: inline-block;
     width: 162px;
     margin: 48px 97px;
+    padding-bottom: 2%;
     font-size: 31px;
     border: 2px solid rgb(247, 67, 97);
     border-radius: 18px;

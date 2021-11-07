@@ -9,13 +9,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #361ab1;
+    background-color: #ffffff;
   }
   
   .logo {
     cursor: pointer;
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
   }
   
   .nav__links a,
@@ -23,7 +23,7 @@
   .overlay__content a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #edf0f1;
+    color: #525252;
     text-decoration: none;
   }
   
@@ -43,25 +43,39 @@
   .nav__links li a:hover {
     color: #0088a9;
     }
-    .button{
+
+
+  .button{
       width: 12px;
       height: 10px;
       background-color: blue;
-    }
+      padding-bottom: 10%;
+   }
   
   .cta {
+    color: #ffffff;
+    text-decoration: none;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
+    margin-bottom: 1%;
+    margin-left: 10%;
   }
   
   .cta:hover {
     background-color: rgba(0, 136, 169, 0.8);
   }
   
+
+  .cta:active{
+    color:  rgba(0, 136, 169, 1);
+
+    background-color: #ffffff;
+
+  }
   /* Mobile Nav */
   
   .menu {
