@@ -11,6 +11,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     background-color: #ffffff;
+    background-image: linear-gradient( #f9f7ff 0%, #fff 50%, #f6f3ff 100%);
   }
   
   .logo img{
@@ -20,9 +21,63 @@ header {
    position: absolute;
    top: 37px;
    left: 75px;
-
   }
-  
+  .paragraph p{
+    display: flex;
+    text-align: center;
+    margin: 112px 205px 0px 214px;;
+    font-size: 23px;
+  }
+  .prevent h2{
+    text-align: center;
+    font-size: 30px;
+    display: inline-flex;
+    margin: 111px 11px 38px 729px;
+  }
+  .prevent p{
+    display: inline-block;
+margin: 0 160px 30px 49%;
+font-size: 20px;
+width: 508px;
+  }
+  .prevent img{
+    display: inline-block;
+    width: 540px;
+    margin: 58% 48% 48% 48%;
+  }
+  .prevent p1{
+    display: inline-block;
+    margin: 18px 62px 0 659px;
+    font-size: 20px;
+  }
+  .prevent p2{
+    display: inline-block;
+    margin: 34px 56px 0px 659px;
+    font-size: 20px;
+  }
+  .prevent p3{
+    display: inline-block;
+    margin: 43px 46px 15px 659px;
+    font-size: 20px;
+  }
+  .prevent p4{
+    display: i1nline-block;
+    margin: 43px 46px 15px 659px;
+    font-size: 20px;
+  }
+  .detect h2{
+    display: inline-block;
+    margin:10% 11% 6% 9%;
+    font-size: 30px;
+    width: 357px;
+    border: 2px solid red;
+  }
+  .detect p{
+    display: inline-block;
+margin: -27px 71px 13px 11%;
+font-size: 20px;
+width: 508px;
+  }
   .nav__links a,
 
   .overlay__content a {

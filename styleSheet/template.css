@@ -17,6 +17,7 @@
     width: 256px;
     height: 45px;
     border: 2px solid red;
+    margin: 0px 0px 0px -86px;
   }
   
   .nav__links a,
