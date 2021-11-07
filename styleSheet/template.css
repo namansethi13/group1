@@ -12,10 +12,11 @@
     background-color: #ffffff;
   }
   
-  .logo {
+  .logo img{
     cursor: pointer;
-    height: 40%;
-    width: 40%;
+    width: 256px;
+    height: 45px;
+    border: 2px solid red;
   }
   
   .nav__links a,

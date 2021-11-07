@@ -16,10 +16,10 @@ header {
   .logo img{
    cursor: pointer;
    display: inline-block;
-   width: 195px;
+   width: 161px;
    position: absolute;
-   top: 23px;
-   left: 25px;
+   top: 37px;
+   left: 75px;
 
   }
   
@@ -63,7 +63,7 @@ header {
   cursor: pointer;
   transition: background-color 0.3s ease 0s;
   margin-bottom: 1%;
-  margin-left: 10%;
+  margin-left: -10%;
 }
   
   .cta:hover {
@@ -92,18 +92,21 @@ header {
   }
  p{
    display: inline-block;
+   display: inline-flex;
     /* border: 2px solid red; */
     margin: 10px 95px;
-    font-size: 23px;
+    font-size: 35px;
+    color: #e1caca;;
   }
   .btn button{
    display: inline-block;
+   display: inline-flex;
     width: 162px;
     margin: 48px 97px;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
     font-size: 31px;
-    border: 2px solid rgb(247, 67, 97);
-    border-radius: 18px;
+    border: 1px solid rgb(247, 67, 97);
+    border-radius: 20px;
     background-color: white;
     color:rgb(247, 67, 97) ;
 }
@@ -115,6 +118,7 @@ header {
   img{
     width: 430px;
     display: inline-block;
+    display: inline-flex;
     position: absolute;
     top: 130px;
     right: 110px;
